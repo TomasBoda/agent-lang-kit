@@ -1,65 +1,27 @@
-# agent-lang-kit README
+<img src="https://github.com/TomasBoda/agent-lang/blob/main/assets/logos/agent-lang-kit-logo-black.png#gh-light-mode-only" width="400">
+<img src="https://github.com/TomasBoda/agent-lang/blob/main/assets/logos/agent-lang-kit-logo-white.png#gh-dark-mode-only" width="400">
 
-This is the README for your extension "agent-lang-kit". After writing up a brief description, we recommend including the following sections.
+![Version Badge](https://img.shields.io/badge/version-1.0.0-blue?style=flat)
+![Contributors Badge](https://img.shields.io/badge/contributors-1-green?style=flat)
+![License Badge](https://img.shields.io/badge/license-MIT-red?style=flat)
 
-## Features
+## About
+Visual Studio Code extension for AgentLang syntax highlighting
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+## Installation
+In order to use the extension in visual studio code, clone this repository into you `.vscode` installation folder.
+```bash
+# navigate to your .vscode extensions folder
+cd $HOME/.vscode/extensions
+# clone the repository
+git clone https://github.com/TomasBoda/agent-lang-kit.git
+```
+Open Visual Studio Code and create a `*.agl` file. This file will be syntax highlighted.
 
-For example if there is an image subfolder under your extension project workspace:
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-\!\[feature X\]\(images/feature-x.png\)
+## License
+[MIT](/LICENSE.md)
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Made by [Tomas Boda](https://github.com/TomasBoda)
