@@ -6,7 +6,10 @@
 ![License Badge](https://img.shields.io/badge/license-MIT-red?style=flat)
 
 ## About
-Visual Studio Code extension for AgentLang syntax highlighting
+Visual Studio Code extension for AgentLang syntax highlighting.
+
+## Extension
+The extension for AgentLang source files is `.agl`. This extension will be syntax highlighted by this extension.
 
 ## Installation
 In order to use the extension in visual studio code, clone this repository into you `.vscode` installation folder.
