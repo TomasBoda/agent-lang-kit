@@ -1,0 +1,25 @@
+{
+  "name": "agent-lang-kit",
+  "displayName": "AgentLangKit",
+  "description": "Language Support for the AgentLang Programming Language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.88.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "source.agl",
+      "aliases": ["AgentLang", "agl"],
+      "extensions": ["agl"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "source.agl",
+      "scopeName": "source.agl",
+      "path": "./syntaxes/agl.tmLanguage.json"
+    }]
+  }
+}

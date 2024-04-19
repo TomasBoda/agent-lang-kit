@@ -1,0 +1,37 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "AgentLang",
+	"scopeName": "source.agl",
+	"patterns": [{ "include": "#lang" }
+	],
+	"repository": {
+		"lang": {
+			"patterns": [
+				{ "include": "#comments" },
+				{ "include": "#variables" }
+			]
+		},
+		"comments": {
+			"name": "comment.control.agl",
+			"match": "#([^#]*)#"
+		},
+		"variables": {
+			"name": "variable.control.agl",
+			"match": "\\b(agent|property|const|define|true|false|if|else|then|otherwise|random|choice|sqrt|abs|floor|ceil|round|sin|cos|tan|atan|pi|prob|dist|count|filter|empty|min|max|sum|rgb|find_by_coordinates|step|index|width|height|agents)\\b"
+		}
+	},
+	"tokenColors": [
+		{
+			"scope": "comment.control.agl",
+			"settings": {
+				"foreground": "#FFFFFF"
+			}
+		},
+		{
+			"scope": "variable.control.agl",
+			"settings": {
+				"foreground": "#FF0000"
+			}
+		}
+	]
+}
